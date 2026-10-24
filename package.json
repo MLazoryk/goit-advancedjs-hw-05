@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "web-dev-server --node-resolve --open --watch"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/MLazoryk/goit-advancedjs-hw-05#readme",
   "devDependencies": {
-    "typescript": "^7.0.2"
+    "@web/dev-server": "^0.4.6",
+    "typescript": "^5.4.5"
   }
 }
